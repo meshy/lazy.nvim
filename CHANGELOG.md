@@ -1,5 +1,18 @@
 # Changelog
 
+## [7.3.0](https://github.com/folke/lazy.nvim/compare/v7.2.0...v7.3.0) (2022-12-26)
+
+
+### Features
+
+* **reloader:** trigger LazyReload when changes were detected and after reload. Fixes [#178](https://github.com/folke/lazy.nvim/issues/178) ([4e4493b](https://github.com/folke/lazy.nvim/commit/4e4493b21d6b55742b00babd166dc1c1acbfa4ba))
+
+
+### Bug Fixes
+
+* **cache:** never use packer paths from cache ([bb53b84](https://github.com/folke/lazy.nvim/commit/bb53b8473cd065dc467853222ee3462739ab16fa))
+* **reloader:** remove extra trailing separator ([#180](https://github.com/folke/lazy.nvim/issues/180)) ([c4d924a](https://github.com/folke/lazy.nvim/commit/c4d924aceea13cfab5cf23d0765c5d206deff341))
+
 ## [7.2.0](https://github.com/folke/lazy.nvim/compare/v7.1.0...v7.2.0) (2022-12-26)
 
 
